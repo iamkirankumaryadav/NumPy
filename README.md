@@ -10,12 +10,38 @@
 - Essential library for scientific and mathematical projects.
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
-- Both lists and arrays have similar syntax ( List: n = [1, 2, 3] and NumPy Array: n = np.array([1, 2, 3])
+- Both lists and arrays have similar syntax 
+```python
+# List
+marks = [50, 45, 34]  
+
+#NumPy Array
+marks = np.array([50, 45, 34])
+```
+- Elements in both are `ordered`, `mutable` and accept `duplicates`
+- Both allows `indexing`, `slicing` and `iterating`
 
 ### Python Lists Vs NumPy Arrays
 
 **Python List** | **NumPy Array**
 :--- | :---
 No support for vectorized operations | Supports vectorized operations (additions, multiplications)
-**Heterogeneous** / mixed data type | **Homogeneous** data type
+Hold **Heterogeneous** / mixed data types | Hold **Homogeneous** data type
 For loops are not efficient | For loops are fast and efficient
+List is a default structure | Array needs import of NumPy library
+Lists are flexible | Once the dimensions are defined cannot be expanded
+Consumes more memory | Consumes 6x less memory
+Slow ( During iteration data type of each element is checked) | Faster ( All the elements are of same data type )
+
+### Why NumPy array is faster than Python's list ?
+- NumPy array elements only need memory to store element values.
+- List stores much more information as compared to NumPy array.
+- List stores ( Object type, Reference count, Object value and Size of value )
+- Mathematical operations performed by Arrays are faster than Python's list.
+```python
+# List
+[i * 5 for i in list]
+
+# Array
+array * 5
+```
