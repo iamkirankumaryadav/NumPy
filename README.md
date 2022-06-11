@@ -39,9 +39,9 @@ Slow ( During iteration data type of each element is checked) | Faster ( All the
 - List stores ( Object type, Reference count, Object value and Size of value )
 - Mathematical operations performed by Arrays are faster than Python's list.
 ```python
-# Python List
+# Python List: Uses a for loop for just multiplying the elements with 5.
 [i * 5 for i in list]
 
-# NumPy Array
+# NumPy Array: Simply multiplies each elements with 5.
 array * 5
 ```
