@@ -9,7 +9,10 @@
 - Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
 - Essential library for scientific and mathematical projects.
 
-### Python Lists vs NumPy Arrays
+### **Similarities** between `Python Lists` and `NumPy Arrays`
+- Both lists and arrays have similar syntax ( List: n = [1, 2, 3] and NumPy Array: n = np.array([1, 2, 3])
+
+### Python Lists Vs NumPy Arrays
 
 **Python List** | **NumPy Array**
 :--- | :---
