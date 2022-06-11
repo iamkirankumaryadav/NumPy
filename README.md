@@ -42,6 +42,6 @@ Slow ( During iteration data type of each element is checked) | Faster ( All the
 # Python List: Uses a for loop for just multiplying the elements with 5.
 [i * 5 for i in list]
 
-# NumPy Array: Simply multiplies each elements with 5.
+# NumPy Array: Simply multiplies each elements ( whole array ) with 5.
 array * 5
 ```
