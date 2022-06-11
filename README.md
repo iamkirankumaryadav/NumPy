@@ -12,10 +12,10 @@
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
 - Both lists and arrays have similar syntax 
 ```python
-# List
+# Python List
 marks = [50, 45, 34]  
 
-#NumPy Array
+# NumPy Array
 marks = np.array([50, 45, 34])
 ```
 - Elements in both are `ordered`, `mutable` and accept `duplicates`
@@ -39,9 +39,9 @@ Slow ( During iteration data type of each element is checked) | Faster ( All the
 - List stores ( Object type, Reference count, Object value and Size of value )
 - Mathematical operations performed by Arrays are faster than Python's list.
 ```python
-# List
+# Python List
 [i * 5 for i in list]
 
-# Array
+# NumPy Array
 array * 5
 ```
