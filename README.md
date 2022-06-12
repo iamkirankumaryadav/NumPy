@@ -6,7 +6,7 @@
 - Linear algebra
 - Bitwise operations
 - Stacking, Searching, Sorting, Counting, Broadcasting and Matrix operations.
-- Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
+- Base for many other packages (Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn)
 - Essential library for scientific and mathematical projects.
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
@@ -31,12 +31,12 @@ For loops are not efficient | For loops are fast and efficient
 List is a default structure | Array needs import of NumPy library
 Lists are flexible | Once the dimensions are defined cannot be expanded
 Consumes more memory | Consumes 6x less memory
-Slow ( During iteration data type of each element is checked) | Faster ( All the elements are of same data type )
+Slow (During iteration data type of each element is checked) | Faster (All the elements are of same data type)
 
 ### Why NumPy array is faster than Python's list ?
 - NumPy array elements only need memory to store element values.
 - List stores much more information as compared to NumPy array.
-- List stores ( Object type, Reference count, Object value and Size of value )
+- List stores (Object type, Reference count, Object value and Size of value)
 - Mathematical operations performed by Arrays are faster than Python's list.
 ```python
 # Python List: Uses a for loop for just multiplying the elements with 5.
