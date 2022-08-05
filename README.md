@@ -45,3 +45,5 @@ Slow (During iteration data type of each element is checked) | Faster (All the e
 # NumPy Array: Simply multiplies each elements ( whole array ) with 5.
 array * 5
 ```
+
+<p align='right'><a align="right" href="https://github.com/KIRANKUMAR7296/Library/blob/main/Interview.md">Back to Questions</a></p>
