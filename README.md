@@ -9,8 +9,8 @@
 - Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
 - Essential library for scientific and mathematical projects.
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
-- Rich set of Attributes: `shape`, `size`, `ndim`
-- Rich set of functions: `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
+- Rich set of `Attributes` : `shape`, `size`, `ndim`
+- Rich set of `Methods` : `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 - The datasets which are accepted by models for training are also in the form of array.
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
