@@ -7,9 +7,7 @@
 - `Array` processing, `N` dimensional array, fast `vector` and `matrix` operations.
 - `Broadcasting` ( Arithmetic operations between array of different shape and size )
 - Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
-- Essential library for scientific and mathematical projects.
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
-- Rich set of `Methods` : `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 - The datasets which are accepted by models for training are also in the form of array.
 
 Attribute | Description
@@ -17,6 +15,26 @@ Attribute | Description
 `.shape` | 
 `.size` |
 `.ndim` | 
+
+Method | Description
+:--- | :---
+`array()` | 
+`arange()` | 
+`unique()` |
+`repeat()` |
+`argmax()` | 
+`argmin()` |
+`reshape()` | 
+`count_nonzero()` | 
+`zeros()` | 
+`ones()` | 
+`ravel()` |
+`hsplit()` | 
+`vsplit()` | 
+`hstack()` |
+`vstack()` | 
+
+[...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
 - Both lists and arrays have similar syntax 
