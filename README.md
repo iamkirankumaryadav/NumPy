@@ -40,7 +40,7 @@ Slow (During iteration data type of each element is checked) | Faster (All the e
 ### Why NumPy array is faster than Python's list ?
 - NumPy array elements only need memory to store element values.
 - List stores much more information as compared to NumPy array.
-- List stores (Object type, Reference count, Object value and Size of value)
+- List stores ( Object type, Reference count, Object value and Size of value )
 - Mathematical operations performed by Arrays are faster than Python's list.
 ```python
 # Python List: Uses a for loop for just multiplying the elements with 5.
