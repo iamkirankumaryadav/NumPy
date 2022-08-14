@@ -1,13 +1,17 @@
-# NumPy
+# `NumPy`
 
 ### **Why** to use NumPy ?
-- Arithmetic operations
-- Statistcs operations
-- Linear algebra
-- Bitwise operations
-- Stacking, Searching, Sorting, Counting, Broadcasting and Matrix operations.
-- Base for many other packages (Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn)
+- Arithmetic, statistcal, mathematical, bitwise operations and linear algebra.
+- Stacking, searching, sorting, counting, broadcasting and matrix operations.
+- `Elementwise` arithmetic operations, `scientific` and `financial` calculations.
+- `Array` processing, `N` dimensional array, fast `vector` and `matrix` operations.
+- `Broadcasting` ( Arithmetic operations between array of different shape and size )
+- Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
 - Essential library for scientific and mathematical projects.
+- Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
+- Rich set of Attributes: `shape`, `size`, `ndim`
+- Rich set of functions: `array()`, `arange()`, `unique()`, `repeat()`, `random.randint()`, `argmax()`, `reshape()`, `count_nonzero()`, `zeros()`, `ones()`, `ravel()`, `hsplit()`, `vsplit()`, `hstack()`, `vstack()` [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
+- The datasets which are accepted by models for training are also in the form of array.
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
 - Both lists and arrays have similar syntax 
