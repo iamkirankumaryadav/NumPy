@@ -29,13 +29,13 @@ marks = np.array([50, 45, 34])
 
 **Python List** | **NumPy Array**
 :--- | :---
-No support for vectorized operations | Supports vectorized operations (additions, multiplications)
+No support for vectorized operations | Supports vectorized operations ( additions, multiplications )
 Hold **Heterogeneous** / mixed data types | Hold **Homogeneous** data type
 For loops are not efficient | For loops are fast and efficient
 List is a default structure | Array needs import of NumPy library
 Lists are flexible | Once the dimensions are defined cannot be expanded
 Consumes more memory | Consumes 6x less memory
-Slow (During iteration data type of each element is checked) | Faster (All the elements are of same data type)
+Slow ( During iteration data type of each element is checked ) | Faster ( All the elements are of same data type )
 
 ### Why NumPy array is faster than Python's list ?
 - NumPy array elements only need memory to store element values.
