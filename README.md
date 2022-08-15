@@ -116,7 +116,7 @@ For loops are not efficient | For loops are fast and efficient
 List is a default structure | Array needs import of NumPy library
 Lists are flexible | Once the dimensions are defined cannot be expanded
 Consumes more memory | Consumes 6x less memory
-Slow ( During iteration data type of each element is checked ) | Faster ( All the elements are of same data type )
+Slow ( Data type of each element is checked ) | Faster ( All the elements are of same data type )
 
 Python List ( Ordered, Subscriptable, Mutable, Heterogeneous, Duplicate, Indexing, Slicing, Iterable )
 ```python
