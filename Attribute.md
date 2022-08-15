@@ -13,8 +13,8 @@ print(x)
 print(y)
 print(z)
 ```
+ `output`
 ```
-# Output:
 [1 2 3]
 
 [[1 2 3]
