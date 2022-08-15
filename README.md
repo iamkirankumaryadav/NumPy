@@ -85,9 +85,9 @@ Operator | Description
 `np.random.random((5,5))` |	Creates an array with `random` numbers.
 `np.empty((2,2))` |	Creates an `empty` array.
 
-### **Similarities** between `Python Lists` and `NumPy Arrays`
+### `Similarities` between `Python Lists` and `NumPy Arrays`
 
-- Both lists and arrays have similar syntax 
+- Both `lists` and `arrays` have similar syntax. 
 - Elements in both are `ordered`, `mutable` and accept `duplicates`
 - Both allows `indexing`, `slicing` and `iterating`
 
