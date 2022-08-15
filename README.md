@@ -86,7 +86,11 @@ Operator | Description
 `np.empty((2,2))` |	Creates an `empty` array.
 
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
+
 - Both lists and arrays have similar syntax 
+- Elements in both are `ordered`, `mutable` and accept `duplicates`
+- Both allows `indexing`, `slicing` and `iterating`
+
 ```python
 # Python List
 marks = [50, 45, 34]  
@@ -94,8 +98,6 @@ marks = [50, 45, 34]
 # NumPy Array
 marks = np.array([50, 45, 34])
 ```
-- Elements in both are `ordered`, `mutable` and accept `duplicates`
-- Both allows `indexing`, `slicing` and `iterating`
 
 ### Python Lists Vs NumPy Arrays
 
