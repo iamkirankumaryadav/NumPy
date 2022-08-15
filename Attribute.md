@@ -42,3 +42,17 @@ print(z.shape)
 
 (2, 2, 3)
 ```
+
+### `ndarray.ndim`
+
+```python
+print(f'Number of dimensions in x: {x.ndim}')
+print(f'Number of dimensions in y: {y.ndim}')
+print(f'Number of dimensions in z: {z.ndim}')
+```
+`output`
+```
+Number of dimensions in x: 1
+Number of dimensions in y: 2
+Number of dimensions in z: 3
+```
