@@ -6,7 +6,7 @@
 - `Elementwise` arithmetic operations, `scientific` and `financial` calculations.
 - `N dimensional array` processing, fast `vector` and `matrix` operations.
 - `Broadcasting` : Arithmetic operations between array of different shapes and size.
-- `NumPy` is used as a base library for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
+- `NumPy` is used as a base library for Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn.
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
 - The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
 
