@@ -43,6 +43,12 @@
   </tr>    
 </table>
 
+Array |	Dimensions
+:--- | :---
+`np.array([1, 2, 3])` |	`1D` Array
+`np.array([(1, 2, 3), (4, 5, 6)])` | `2D` Array
+`np.arange(start, stop, step)` | `Range` Array
+
 Attribute | Description
 :--- | :---
 `.shape` | 
@@ -69,6 +75,16 @@ Method | Description
 
 [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
+### Placeholders 
+
+Operator | Description
+:--- | :---
+`np.linspace(0,2,9)` |	Add evenly spaced values between interval to array of length.
+`np.zeros((1,2))`	| Creates an array filled with `zeros`
+`np.ones((1,2))` |	Creates an array filled with `ones`
+`np.random.random((5,5))` |	Creates an array with `random` numbers.
+`np.empty((2,2))` |	Creates an `empty` array.
+
 ### **Similarities** between `Python Lists` and `NumPy Arrays`
 - Both lists and arrays have similar syntax 
 ```python
@@ -92,6 +108,18 @@ List is a default structure | Array needs import of NumPy library
 Lists are flexible | Once the dimensions are defined cannot be expanded
 Consumes more memory | Consumes 6x less memory
 Slow ( During iteration data type of each element is checked ) | Faster ( All the elements are of same data type )
+
+Python List ( Ordered, Subscriptable, Mutable, Heterogeneous, Duplicate, Indexing, Slicing, Iterable )
+```python
+List = [1, 2, 3]
+```
+
+NumPy Array
+```python
+import numpy as np
+
+Array = np.array([1, 2, 3])
+```
 
 ### Why NumPy array is faster than Python's list ?
 - NumPy array elements only need memory to store element values.
