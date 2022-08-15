@@ -63,22 +63,22 @@ Attribute | Description
 Method | Description
 :--- | :---
 `array()` | 
-`arange()` | 
-`unique()` |
-`repeat()` |
-`argmax()` | 
-`argmin()` |
-`reshape()` | 
-`count_nonzero()` | 
-`zeros()` | 
-`ones()` | 
-`ravel()` |
-`hsplit()` | 
-`vsplit()` | 
-`hstack()` |
-`vstack()` | 
+`.arange()` | Creates an array in a range with a specified increment
+`.unique()` | Number of unique elements in an array
+`.repeat()` |
+`.argmax()` | Indices of maximum values along an axis
+`.argmin()` | Indices of minimum values along an axis
+`.reshape()` | Changes the shape of an array
+`.count_nonzero()` | Count of non-zero elements in an array
+`.hsplit()` | Split arrays horizontally ( Row wise )
+`.vsplit()` | Split arrays vertically ( Column wise )
+`.hstack()` | Stack arrays horizontally ( Row wise ) 
+`.vstack()` | Stack arrays vertically ( Column wise )
 `.flatten()` | Transform a multi-dimensional Numpy array to 1D Numpy array
 `.ravel()` | View a multi-dimensional Numpy array as 1D Numpy array
+`.transpose()` | Transposes an array
+`np.absolute()` | Absolute values of elements in an array
+`np.round()` | Round up the floats to a specified number of decimal points
 
 [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
