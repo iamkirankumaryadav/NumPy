@@ -52,13 +52,13 @@ Array |	Dimensions
 
 Attribute | Description
 :--- | :---
-`.shape` | Tuple of array dimensions
-`.size` | Number of elements present in the array
-`.ndim` | Number of array dimensions ( 1, 2, 3 )
-`.dtype` | Data type of Numpy array
-`.itemsize` | Number of bytes required by each array element
-`.nbytes` | Total number of bytes occupied by array
-`.T` | NumPy.Transpose ( Transpose of a matrix )
+`ndarray.shape` | Tuple of array dimensions
+`ndarray.size` | Number of elements present in the array
+`ndarray.ndim` | Number of array dimensions ( 1, 2, 3 )
+`ndarray.dtype` | Data type of Numpy array
+`ndarray.itemsize` | Number of bytes required by each array element
+`ndarray.nbytes` | Total number of bytes occupied by array
+`ndarray.T` | NumPy.Transpose ( Transpose of a matrix )
 
 Method | Description
 :--- | :---
