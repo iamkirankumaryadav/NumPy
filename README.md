@@ -9,7 +9,7 @@
 - `NumPy` is used as a base library for Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn.
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
 - The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
-- A very rich set of [attributes](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Method.md)
+- A very rich set of [number generator](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Number%20Generators.ipynb), [attributes](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Method.md)
 
 <table>
   <tr>
