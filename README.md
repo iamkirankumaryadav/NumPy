@@ -110,7 +110,7 @@ marks = np.array([50, 45, 34])
 
 **Python List** | **NumPy Array**
 :--- | :---
-No support for vectorized operations | Supports vectorized operations ( additions, multiplications )
+No support for vectorized operations | Support vectorized operations ( addition, multiplication )
 Hold **Heterogeneous** / mixed data types | Hold **Homogeneous** data type
 For loops are not efficient | For loops are fast and efficient
 List is a default structure | Array needs import of NumPy library
