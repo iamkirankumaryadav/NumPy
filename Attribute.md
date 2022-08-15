@@ -26,3 +26,19 @@ print(z)
  [[ 7  8  9]
   [10 11 12]]]
 ```
+
+### `ndarray.shape`
+
+```python
+print(x.shape)
+print(y.shape)
+print(z.shape)
+```
+`output`
+```
+(3,)
+
+(2, 3)
+
+(2, 2, 3)
+```
