@@ -56,3 +56,17 @@ Number of dimensions in x: 1
 Number of dimensions in y: 2
 Number of dimensions in z: 3
 ```
+
+### `ndarray.size`
+
+```python
+print(f'Number of elements in x: {x.size}')
+print(f'Number of elements in y: {y.size}')
+print(f'Number of elements in z: {z.size}')
+```
+`output`
+```
+Number of elements in x: 3
+Number of elements in y: 6
+Number of elements in z: 12
+```
