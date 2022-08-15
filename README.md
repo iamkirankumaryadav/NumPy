@@ -62,10 +62,10 @@ Attribute | Description
 
 Method | Description
 :--- | :---
-`array()` | 
+`array()` | Creates an array
 `.arange()` | Creates an array in a range with a specified increment
 `.unique()` | Number of unique elements in an array
-`.repeat()` |
+`.repeat()` | Creates an array by repeating the number of elements  
 `.argmax()` | Indices of maximum values along an axis
 `.argmin()` | Indices of minimum values along an axis
 `.reshape()` | Changes the shape of an array
