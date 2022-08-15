@@ -4,11 +4,11 @@
 - Arithmetic, statistcal, mathematical, bitwise operations and linear algebra.
 - Stacking, searching, sorting, counting, broadcasting and matrix operations.
 - `Elementwise` arithmetic operations, `scientific` and `financial` calculations.
-- `Array` processing, `N` dimensional array, fast `vector` and `matrix` operations.
-- `Broadcasting` ( Arithmetic operations between array of different shape and size )
-- Base for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
+- `N dimensional array` processing, fast `vector` and `matrix` operations.
+- `Broadcasting` : Arithmetic operations between array of different shapes and size.
+- `NumPy` is used as a base library for many other packages ( Pandas, SciPy, Statsmodel, Matplotlib, Scikit Learn )
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
-- The datasets which are accepted by models for training are also in the form of array.
+- The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
 
 Attribute | Description
 :--- | :---
