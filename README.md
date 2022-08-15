@@ -99,7 +99,7 @@ marks = [50, 45, 34]
 marks = np.array([50, 45, 34])
 ```
 
-### Python Lists Vs NumPy Arrays
+### `Difference` between `Python Lists` Vs `NumPy Arrays`
 
 **Python List** | **NumPy Array**
 :--- | :---
