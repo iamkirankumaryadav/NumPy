@@ -52,9 +52,13 @@ Array |	Dimensions
 
 Attribute | Description
 :--- | :---
-`.shape` | 
-`.size` |
-`.ndim` | 
+`.shape` | Tuple of array dimensions
+`.size` | Number of elements present in the array
+`.ndim` | Number of array dimensions ( 1, 2, 3 )
+`.dtype` | Data type of Numpy array
+`.itemsize` | Number of bytes required by each array element
+`.nbytes` | Total number of bytes occupied by array
+`.T` | NumPy.Transpose ( Transpose of a matrix )
 
 Method | Description
 :--- | :---
@@ -73,6 +77,8 @@ Method | Description
 `vsplit()` | 
 `hstack()` |
 `vstack()` | 
+`.flatten()` | Transform a multi-dimensional Numpy array to 1D Numpy array
+`.ravel()` | View a multi-dimensional Numpy array as 1D Numpy array
 
 [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
