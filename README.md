@@ -1,6 +1,9 @@
 # `NumPy`
 
-NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
+- NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
+- Only store a single data type (Mixed data type is stored as object | `string`)
+- They can be one dimensional or multi dimensional.
+- Array elements can be modified, but the array size cannot change.
 
 ### **Why** to use NumPy ?
 - Arithmetic, statistcal, mathematical, bitwise operations and linear algebra.
@@ -12,6 +15,14 @@ NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on 
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
 - The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
 - NumPy has a very rich set of [number generator](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Number%20Generators.ipynb), [attributes](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Method.md)
+
+```
+import numpy as np
+
+marks = [50, 55, 90, 99, 100]
+
+marks_array = np.array(marks)
+```
 
 <table>
   <tr>
