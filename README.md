@@ -1,5 +1,7 @@
 # `NumPy`
 
+NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
+
 ### **Why** to use NumPy ?
 - Arithmetic, statistcal, mathematical, bitwise operations and linear algebra.
 - Stacking, searching, sorting, counting, broadcasting and matrix operations.
