@@ -16,13 +16,22 @@
 - The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
 - NumPy has a very rich set of [number generator](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Number%20Generators.ipynb), [attributes](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Method.md)
 
-```
+```python
 import numpy as np
 
 marks = [50, 55, 90, 99, 100]
 
 marks_array = np.array(marks)
 ```
+
+### Key `Properties`
+
+Properties | Description
+:--- | :---
+**ndim** | Number of dimensions (axes) in an array.
+**shape** | Size of an array for each dimension.
+**size** | Total number of elements in the array.
+**dtype** | Data type of elements in the array.
 
 <table>
   <tr>
