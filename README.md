@@ -1,7 +1,8 @@
 # `NumPy`
 
 - NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
-- Only store a single data type (Mixed data type is stored as object | `string`)
+- `Array`: Fixed size containers of items that are more efficient than Python `Lists` or `Tuples` for data processing.
+- Only store a single data type (Mixed data type is stored as `object` | `string`)
 - They can be one dimensional or multi dimensional.
 - Array elements can be modified, but the array size cannot change.
 
@@ -15,12 +16,6 @@
 - Essential for `OpenCV` computer vision applications ( Images pixels are converted into array )
 - The datasets which are accepted by models for `fit` ( training | learning ) are also in the form of array.
 - NumPy has a very rich set of [number generator](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Number%20Generators.ipynb), [attributes](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Attribute.md) and [methods](https://github.com/KIRANKUMAR7296/NumPy/blob/main/Method.md)
-
-### `Array`
-- Fixed size containers of items that are more efficient than Python `Lists` or `Tuples` for data processing.
-- They only store single `data type` (Mixed data type is stored as object | string)
-- They can be `1D` or multidimensional.
-- Array elements can be modified, but array `size` cannot change.
 
 ```python
 import numpy as np
