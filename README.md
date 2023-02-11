@@ -18,7 +18,7 @@
 
 ### `Array`
 - Fixed size containers of items that are more efficient than Python `Lists` or `Tuples` for data processing.
-- They only store single `data type` (Mixed data type is stored as string)
+- They only store single `data type` (Mixed data type is stored as object | string)
 - They can be `1D` or multidimensional.
 - Array elements can be modified, but array `size` cannot change.
 
