@@ -1,6 +1,11 @@
 # `NumPy`
 
-- NumPy is foundation of other libraries like `Pandas`, `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
+- Provides support for large, multidimensional arrays and matrices.
+- Large collection of `mathematical functions` to operate on `arrays`
+- NumPy is foundation of other libraries like `Pandas`, `SciPy` and `Scikit Learn`
+- `DataFrames` are build on NumPy arrays and can leverage NumPy functions.
+- NumPy's core data structure is the `ndarray` (n dimensional array)
+- Arrays are `homogeneous` collection of elements of same data types.
 - `Array`: Fixed size containers of items that are more efficient than Python `Lists` or `Tuples` for data processing.
 - Only store a single data type (Mixed data type is stored as `object` | `string`)
 - They can be one dimensional or multi dimensional.
