@@ -90,23 +90,23 @@ Attribute | Description
 
 Method | Description
 :--- | :---
-`array()` | Creates an array
-`.arange()` | Creates an array in a range with a specified increment
-`.unique()` | Number of unique elements in an array
-`.repeat()` | Creates an array by repeating the number of elements  
-`.argmax()` | Indices of maximum values along an axis
-`.argmin()` | Indices of minimum values along an axis
-`.reshape()` | Changes the shape of an array
-`.count_nonzero()` | Count of non-zero elements in an array
-`.hsplit()` | Split arrays horizontally ( Row wise )
-`.vsplit()` | Split arrays vertically ( Column wise )
-`.hstack()` | Stack arrays horizontally ( Row wise ) 
-`.vstack()` | Stack arrays vertically ( Column wise )
-`.flatten()` | Transform a multi-dimensional Numpy array to 1D Numpy array
-`.ravel()` | View a multi-dimensional Numpy array as 1D Numpy array
-`.transpose()` | Transposes an array
-`np.absolute()` | Absolute values of elements in an array
-`np.round()` | Round up the floats to a specified number of decimal points
+`np.array()` | Creates an array
+`array.arange()` | Creates an array in a range with a specified increment
+`array.unique()` | Number of unique elements in an array
+`array.repeat()` | Creates an array by repeating the number of elements  
+`array.argmax()` | Indices of maximum values along an axis
+`array.argmin()` | Indices of minimum values along an axis
+`array.reshape()` | Changes the shape of an array
+`array.count_nonzero()` | Count of non-zero elements in an array
+`array.hsplit()` | Split arrays horizontally ( Row wise )
+`array.vsplit()` | Split arrays vertically ( Column wise )
+`array.hstack()` | Stack arrays horizontally ( Row wise ) 
+`array.vstack()` | Stack arrays vertically ( Column wise )
+`array.flatten()` | Transform a multi-dimensional Numpy array to 1D Numpy array
+`array.ravel()` | View a multi-dimensional Numpy array as 1D Numpy array
+`array.transpose()` | Transposes an array
+`array.absolute()` | Absolute values of elements in an array
+`array.round()` | Round up the floats to a specified number of decimal points
 
 [...](https://towardsdatascience.com/21-numpy-functions-that-will-boost-your-data-analysis-process-1671fb35215)
 
