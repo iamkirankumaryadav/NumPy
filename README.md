@@ -34,10 +34,10 @@ marks_array = np.array(marks)
 
 Properties | Description
 :--- | :---
-**ndim** | Number of dimensions (axes) in an array.
-**shape** | Size of an array for each dimension.
-**size** | Total number of elements in the array.
-**dtype** | Data type of elements in the array.
+`ndim` | Number of dimensions (axes) in an array.
+`shape` | Size of an array for each dimension.
+`size` | Total number of elements in the array.
+`dtype` | Data type of elements in the array.
 
 <table>
   <tr>
